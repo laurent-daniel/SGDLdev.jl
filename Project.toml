@@ -1,0 +1,13 @@
+name = "SgdlDev"
+uuid = "1465e4ea-c5ac-4e5f-baf4-bc05638a90d2"
+authors = ["Laurent Daniel <laurent.daniel@sgdl.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.4.2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
