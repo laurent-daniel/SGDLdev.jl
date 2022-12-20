@@ -1,7 +1,7 @@
 module SgdlDev
 
 # Write your package code here.
-greet() = println("SgdlDev : package v1 loaded!")
+greet() = println("SgdlDev : package v2 loaded!")
 
 
 export Test01
