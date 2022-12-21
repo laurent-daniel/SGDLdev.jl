@@ -1,7 +1,7 @@
 module SgdlDev
 
 # Write your package code here.
-greet() = println("SgdlDev : package v2 loaded!")
+greet() = println("SgdlDev : package v3 loaded!")
 
 
 export Test01
@@ -21,7 +21,7 @@ end
 
 #__________________________________________________________
 function Test01(v2::Array{BigInt,1}, a::BigInt)::BigInt
-    return [v2[0]*a,v2[1]*a]
+    return [v2[1]*a,v2[2]*a]
 end
 
 

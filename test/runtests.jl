@@ -8,5 +8,4 @@ using Test
     @test Test01([1,2],BigInt(3)) == BigInt[3, 6]
     @test Test01([BigInt(1),BigInt(2)],BigInt(3)) == BigInt[3, 6]
 
-
 end
